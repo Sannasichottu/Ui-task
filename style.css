@@ -1,0 +1,487 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600&family=Roboto:wght@400;500;900&display=swap");
+
+html {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+/* header-start */
+header {
+  background-color: #fff;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 3;
+  box-shadow: 1px 1px 4px 0 rgb(2, 2, 2);
+}
+.head-flex {
+  display: flex;
+  flex-wrap: nowrap;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  padding: 5px 5px;
+  background-color: #bcdfdc;
+}
+
+.tophead {
+  padding: 10px 5px;
+  color: blue;
+  margin-left: 15rem;
+  font-family: "Times New Roman", Times, serif;
+  font-size: 20px;
+}
+
+.reg-btn {
+  display: inline-block;
+  border: #3640fc;
+  background-color: #3640fc;
+  color: white;
+  padding: 5px 12px;
+  border-radius: 5px;
+  cursor: pointer;
+  text-align: center;
+  margin-right: 15rem;
+}
+
+a {
+  color: #2929f8;
+  text-decoration: none;
+  background-color: transparent;
+}
+
+.phno {
+  color: #4949c2;
+  font-family: "Open Sans", sans-serif;
+  font-size: 18px;
+  margin-right: 3rem;
+}
+/* header-end */
+/* nav-start */
+
+.logo {
+  float: left;
+  margin-top: 5px;
+  margin-left: 20px;
+  gap: 30px;
+}
+
+.menu {
+  float: right;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-end;
+  font-size: 20px;
+  list-style: none;
+  gap: 20px;
+  cursor: pointer;
+}
+
+li a {
+  color: #4949c2;
+  margin-right: 20px;
+}
+
+.menu li:hover {
+  font-size: 25px;
+}
+
+/* nav-end */
+
+/* main start */
+.img-main {
+  height: 550px;
+  margin-top: 10rem;
+  background-color: #bcdfdc;
+}
+
+.img-main div img {
+  display: none;
+}
+
+.btn-3 {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  padding: 50px;
+  margin: 20px;
+}
+
+.soft-btn,
+.account-btn,
+.certificate-btn {
+  border: 2px solid #3640fc;
+  margin-right: 30px;
+  align-items: center;
+  padding: 20px;
+  border-radius: 20px;
+  background-color: #4949c2;
+  color: #fff;
+  font-weight: bold;
+}
+
+.soft-btn:hover,
+.account-btn:hover,
+.certificate-btn:hover {
+  background-color: #fc3636;
+  color: #f9f905e2;
+  border: 2px solid #f9f905e2;
+  text-decoration: underline;
+}
+.recog {
+  font-family: sans-serif;
+  text-align: center;
+  color: #3640fc;
+  font-size: 18px;
+}
+.img-4 {
+  height: 150px;
+  margin-top: 2rem;
+  background-color: #bcdfdc;
+}
+
+.img-4 div img {
+  display: none;
+}
+
+.ec-ad {
+  float: left;
+  margin-left: 2rem;
+  padding: 2rem;
+}
+
+.ec-head-ad {
+  color: red;
+  font-size: 25px;
+
+  font-family: "Roboto", sans-serif;
+}
+
+.ec-head-box {
+  border: 1px solid rgb(71, 67, 67);
+  padding: 8px;
+  box-shadow: 1px 1px 4px 0 rgb(2, 2, 2);
+}
+.ec-head-box img {
+  margin-left: 7px;
+}
+
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;1,500&display=swap");
+
+.ec-head-box p {
+  color: rgb(246, 44, 44);
+  font-size: 20px;
+  font-family: "Roboto", sans-serif;
+  font-weight: 450;
+  margin-top: 5px;
+}
+
+.ec-head-box p span {
+  font-size: 25px;
+  color: rgb(239, 22, 22);
+}
+
+#ec-num {
+  color: #3640fc;
+  font-size: 35px;
+  margin-left: 20px;
+  width: fit-content;
+}
+
+#ec-link {
+  color: rgb(40, 118, 152);
+  font-size: 25px;
+  text-decoration: underline;
+  cursor: pointer;
+  margin-top: -35px;
+  margin-left: 15px;
+}
+
+#ec-amnt {
+  color: rgb(223, 45, 45);
+  font-size: 35px;
+  margin-top: -15px;
+}
+
+.ec-ad-right {
+  padding: 2rem;
+}
+
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@700&family=Roboto:wght@900&display=swap");
+
+.ec-ad-right h2 {
+  color: rgb(248, 38, 38);
+  text-align: center;
+  font-size: 40px;
+  font-weight: 900;
+  font-family: "Roboto", sans-serif;
+  font-family: "Roboto Condensed", sans-serif;
+}
+
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;500&display=swap");
+
+.ec-ad-right h2 span {
+  font-size: 10px;
+  font-weight: 500;
+  color: rgb(227, 32, 32);
+  font-family: "Poppins", sans-serif;
+}
+.ec-ad-right p {
+  font-size: 25px;
+  color: rgb(57, 57, 57);
+  font-family: "Poppins", sans-serif;
+  margin-right: 5rem;
+}
+
+#head-ul {
+  display: flex;
+  margin-top: 30px;
+  padding: 40px;
+  justify-content: center;
+}
+
+#head-ul li {
+  border: 2px solid rgb(182, 220, 244);
+  background-color: rgb(182, 220, 244);
+  border-radius: 10px;
+  list-style: none;
+  margin-left: 10px;
+  margin-right: 25px;
+  padding: 15px;
+  width: 120px;
+  height: 80px;
+  color: #3640fc;
+  font-weight: bold;
+  text-align: center;
+}
+
+/* fssai start */
+
+#fssai-head {
+  margin-top: 12rem;
+  font-family: "Roboto", sans-serif;
+}
+.fssai-img {
+  border: 1px solid rgb(71, 67, 67);
+  padding: 2px;
+  box-shadow: 1px 1px 4px 0 rgb(2, 2, 2);
+  border-radius: 5px;
+}
+.fssai-h3 {
+  font-size: 40px;
+  text-align: center;
+  font-weight: 100;
+  font-family: Arial, Helvetica, sans-serif;
+  color: rgba(34, 34, 34, 0.926);
+  margin-top: -25px;
+}
+.fssai-content {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+.fssai-content img {
+  margin-left: 3rem;
+  margin-bottom: 1rem;
+}
+.fssai-content p {
+  color: rgb(81, 78, 78);
+  margin-left: 3rem;
+  font-size: 21px;
+}
+.fssai-content p span {
+  color: #4949c2;
+}
+
+.filing h3 {
+  color: blue;
+  text-align: center;
+  font-size: 35px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.filing h3 span {
+  color: #fc3636;
+  font-size: 15px;
+}
+.filing p {
+  color: rgb(81, 78, 78);
+  margin-left: 3rem;
+  font-size: 21px;
+  margin-top: -10px;
+}
+/* fssai end */
+
+/* gst software start */
+.gst-soft {
+  float: inline-start;
+}
+
+.gst-soft h2 {
+  text-align: center;
+  font-size: 30px;
+  font-weight: 100;
+  color: rgb(96, 94, 94);
+}
+
+.gst-flex {
+  display: flex;
+  flex-direction: row;
+  margin-left: 25%;
+  gap: 5rem;
+}
+
+.gst-flex img {
+  margin-top: 5rem;
+  margin-left: 40px;
+}
+
+.gst-flex p {
+  font-size: 20px;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+}
+#ecstart {
+  margin-top: -3rem;
+}
+.ec {
+  text-align: center;
+  margin-left: 15rem;
+  font-size: 35px;
+  font-family: Arial, Helvetica, sans-serif;
+  color: rgb(128, 164, 136);
+  font-weight: 100;
+  margin-top: -30px;
+}
+
+.ec span {
+  color: rgb(30, 84, 30);
+}
+.ec-start {
+  color: rgb(156, 46, 46);
+}
+#ec-start {
+  color: rgba(89, 88, 88, 0.96);
+  font-size: 20px;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+}
+.side-head {
+  text-align: center;
+  color: rgba(128, 128, 128, 0.792);
+  font-weight: 100;
+}
+.side-li {
+  margin-left: 15rem;
+  font-size: 18px;
+  color: rgba(89, 88, 88, 0.96);
+}
+
+#ice-reg {
+  padding-top: 30rem;
+}
+#ice-imp {
+  font-size: 16px;
+  color: rgba(89, 88, 88, 0.96);
+  margin-top: -10px;
+}
+
+#ice-imp span {
+  border: 1px solid rgb(255, 85, 0);
+  background-color: rgb(225, 82, 42);
+  font-size: 7px;
+  padding: 2px;
+  border-radius: 2px;
+  color: black;
+}
+
+@import url("https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,300;0,400;0,700;1,600&display=swap");
+
+#ice-exp {
+  font-size: 17px;
+  font-weight: 400;
+  color: rgba(94, 90, 90, 0.96);
+  margin-top: -10px;
+  font-family: "Nunito", sans-serif;
+}
+
+#register {
+  font-size: 25px;
+  margin-top: 5px;
+  font-weight: 100;
+  color: rgb(53, 53, 53);
+}
+
+#qus-mark {
+  margin-left: 30rem;
+  margin-top: -3rem;
+}
+
+#qus-mark ol {
+  color: gray;
+  padding: 2rem;
+  padding-left: 0;
+  font-size: 18px;
+  font-family: "Roboto", sans-serif;
+  font-weight: 450;
+}
+
+#qus-mark ol span {
+  color: rgb(239, 32, 32);
+  font-size: 10px;
+}
+#reg-para {
+  font-size: 17px;
+  font-weight: 400;
+  color: rgba(94, 90, 90, 0.96);
+  margin-top: -10px;
+  margin-left: 30%;
+  font-family: "Nunito", sans-serif;
+}
+#digi-sign {
+  margin-top: -8rem;
+}
+#digi-sign h3 {
+  font-size: 22px;
+}
+#digi-img {
+  margin-left: 5%;
+}
+/* gst software end */
+
+/* Virtual acc start */
+#virtual-acc {
+  text-align: center;
+  font-size: 25px;
+  font-weight: 100;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  color: rgb(96, 94, 94);
+  margin-top: -20px;
+}
+
+#acc-list {
+  padding-left: 12rem;
+  margin-top: -1rem;
+}
+
+.free-reg {
+  color: #3640fc;
+  margin-left: 30%;
+}
+
+.free-reg span {
+  font-size: 10px;
+  font-weight: bold;
+
+  font-family: "Nunito", sans-serif;
+}
+.free-reg p {
+  font-size: 17px;
+  font-weight: 400;
+  color: rgba(94, 90, 90, 0.96);
+  margin-top: 5px;
+  font-family: "Nunito", sans-serif;
+}
+/* Virtual acc end */
+/* main end */
