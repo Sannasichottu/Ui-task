@@ -90,15 +90,24 @@ li a {
 
 /* main start */
 .img-main {
-  height: 550px;
-  margin-top: 10rem;
-  background-color: #bcdfdc;
+  margin-top: 15rem;
+  margin-left: 10%;
+  margin-right: 10%;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr;
+  grid-row: 5px;
+  gap: -50rem;
 }
 
 .img-main div img {
-  display: none;
+  box-shadow: 1px 1px 4px 0 rgb(2, 2, 2);
 }
 
+.item2 {
+  grid-column: span 2;
+  grid-row: span 2;
+}
 .btn-3 {
   display: flex;
   flex-direction: row;
@@ -134,16 +143,6 @@ li a {
   color: #3640fc;
   font-size: 18px;
 }
-.img-4 {
-  height: 150px;
-  margin-top: 2rem;
-  background-color: #bcdfdc;
-}
-
-.img-4 div img {
-  display: none;
-}
-
 .ec-ad {
   float: left;
   margin-left: 2rem;
@@ -473,7 +472,6 @@ li a {
 .free-reg span {
   font-size: 10px;
   font-weight: bold;
-
   font-family: "Nunito", sans-serif;
 }
 .free-reg p {
@@ -483,5 +481,220 @@ li a {
   margin-top: 5px;
   font-family: "Nunito", sans-serif;
 }
+#bill-soft {
+  text-align: center;
+  margin-left: 10px;
+  font-size: 27px !important;
+}
 /* Virtual acc end */
+
+/* Account software start */
+#acc-soft {
+  font-weight: 100;
+  font-size: 30px;
+  color: rgb(65, 64, 64);
+  font-family: "Nunito", sans-serif;
+  margin-top: -4rem;
+}
+
+#digi-sign1 {
+  margin-top: 3rem;
+}
+
+#acc-soft-para {
+  font-size: 17px;
+  margin-top: 5rem;
+  color: rgba(94, 90, 90, 0.96);
+  font-family: "Nunito", sans-serif;
+}
+#acc-soft-para span {
+  color: #fc3636;
+  font-size: 10px;
+  font-weight: bold;
+}
+
+#enter-solu {
+  margin-left: 30%;
+  margin-top: -2rem;
+}
+
+#enter-solu-para {
+  font-size: 1.1em;
+  margin-top: -3rem;
+  color: rgba(94, 90, 90, 0.96);
+  font-family: "Nunito", sans-serif;
+}
+/* Account software end */
+/* our service start */
+#ser-para {
+  font-size: 1.2em;
+  color: rgba(94, 90, 90, 0.96);
+  font-family: "Nunito", sans-serif;
+}
+#iso {
+  margin-right: 30px;
+}
+
+.service-flex {
+  margin-left: 25%;
+  display: flex;
+}
+
+.btn-0 {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  padding: 50px;
+  margin: 20px;
+  gap: 5rem;
+  margin-left: 25%;
+  margin-top: -2rem;
+}
+
+.btn {
+  border: 2px solid black;
+  margin-right: 15px;
+  margin-left: 15px;
+  padding: 30px;
+  border-radius: 10px;
+  background-color: #545492;
+  width: 30%;
+}
+
+.btn p {
+  color: #fff;
+  text-align: center;
+  font-size: 10px;
+  font-weight: bold;
+  margin: auto;
+}
+.btn p:hover {
+  cursor: pointer;
+  color: #e3eb74a2;
+  text-decoration: underline;
+}
+#btn1 {
+  background-color: #4949c2;
+}
+
+#btn2 {
+  background-color: #215d25;
+}
+
+#btn3 {
+  background-color: #31ec56;
+}
+
+#btn4 {
+  background-color: #633259;
+}
+#btn5 {
+  background-color: #7070c1;
+}
+#btn6 {
+  background-color: #49a4d9;
+}
+#btn7 {
+  background-color: #1717bd;
+}
+#btn8 {
+  background-color: #fd2222;
+}
+#btn9 {
+  background-color: #77721fa9;
+}
+#btn10 {
+  background-color: #1e1e8b66;
+}
+/* our service end */
+/* fssai lincence start */
+
+#bsi {
+  margin-top: -8rem;
+}
+
+#bsi-isi {
+  font-weight: 100;
+  font-size: 28px;
+  color: rgb(41, 96, 151);
+  font-family: "Nunito", sans-serif;
+  margin-top: -6rem;
+  margin-left: 15rem;
+}
+#bsi-isi:hover {
+  cursor: pointer;
+  text-decoration: underline;
+}
+.licence {
+  display: flex;
+  flex-direction: row;
+  margin-right: 20px;
+  gap: 5rem;
+}
+
+.licence p {
+  font-size: 1.3em;
+  color: rgba(94, 90, 90, 0.96);
+  font-family: "Nunito", sans-serif;
+}
+
+.licence-padd {
+  margin-top: 7rem;
+}
+
+.licence-margin {
+  margin-left: 25%;
+  margin-top: 7rem;
+}
+
+.licence img {
+  box-shadow: 1px 1px 4px 0 rgb(2, 2, 2);
+}
+/* fssai lincence end */
+/* our partner start */
+.partner {
+  margin-top: 30px;
+  text-align: center;
+  color: #4949c2;
+  font-weight: 100;
+  font-family: "Nunito", sans-serif;
+  font-size: 20px;
+}
+.partner-logo {
+  margin-left: 20%;
+}
+.partner-logo img {
+  margin-right: 2rem;
+}
+/* our partner end */
 /* main end */
+
+/* footer start */
+.footer {
+  background-color: #6565dd;
+}
+.footer .box-container {
+  display: grid;
+  margin-left: 10%;
+  grid-template-columns: repeat(auto-fit, minmax(25rem, 1fr));
+  gap: 1.5rem;
+}
+.footer .box-container .box h3 {
+  color: #fff;
+  font-size: 1.1rem;
+  margin-bottom: -3px;
+  font-family: "Nunito", sans-serif;
+}
+.footer .box-container .box a {
+  color: #fff;
+  font-size: 0.9rem;
+  display: block;
+  padding-left: 15px;
+  font-family: "Nunito", sans-serif;
+}
+.footer .box-container .box a:hover {
+  text-decoration: underline;
+  color: #1717bd;
+}
+
+/* footer end */
