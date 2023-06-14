@@ -59,6 +59,12 @@ a {
 /* header-end */
 /* nav-start */
 
+#check {
+  display: none;
+}
+.checkbtn {
+  display: none;
+}
 .logo {
   float: left;
   margin-top: 5px;
@@ -647,9 +653,6 @@ li a {
   margin-top: 7rem;
 }
 
-.licence img {
-  box-shadow: 1px 1px 4px 0 rgb(2, 2, 2);
-}
 /* fssai lincence end */
 /* our partner start */
 .partner {
@@ -698,3 +701,5 @@ li a {
 }
 
 /* footer end */
+
+/*media Query */

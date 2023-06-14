@@ -5,7 +5,11 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Task 1</title>
-    <link rel="stylesheet" href="./style.css" />
+    <link rel="stylesheet" href="./style/media.css" />
+
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
   </head>
   <body>
     <header>
@@ -26,12 +30,17 @@
 
       <!-- Navbar Start-->
 
-      <section>
+      <nav>
+
         <div class="logo">
           <img src="./Img/logo.png" alt="logo" width="100" height="50" />
+          <input type="checkbox" id="check">
+          <label for="check" class="checkbtn">
+            <i class="fa fa-bars" aria-hidden="true"></i>
 
-          <ul class="menu">
-            <li><a href="#home">Home</a></li>
+          </label>
+          <ul class="menu hide">
+            <li><a class="active" href="#home">Home</a></li>
             <li><a href="#gst">GST Registration</a></li>
             <li><a href="#company">Company Registration</a></li>
             <li><a href="#fssai">Fssai</a></li>
@@ -41,7 +50,7 @@
             <li><a href="#contactus">Contact us</a></li>
           </ul>
         </div>
-      </section>
+      </nav>
       <!-- Navbar End-->
     </header>
 
@@ -133,10 +142,11 @@
       <h4 class="recog">We are recognised by</h4>
       <section class="img-4">
         <div class="partner-logo">
-          <img src="https://contentstatic.techgig.com/photo/83229133.cms" alt="emudhura" width="200" height="100">
-          <img src="https://uxdt.nic.in/wp-content/uploads/2020/06/Digital-india-black.jpg?x35530" alt="payU" width="200" height="80">
-          <img src="https://upload.wikimedia.org/wikipedia/en/4/46/Make_In_India.png" alt="amazon" width="150" height="80">
-          <img src="https://www.onecity.biz/blog/wp-content/uploads/2020/12/ISO_9001-2015_w.jpg" alt="flipkart" width="130" height="100">
+          <img
+          id="startup" src="https://www.startupindia.gov.in/content/dam/invest-india/newhomepage/Logo1.png" alt="startup india" width="200" height="100">
+          <img src="https://uxdt.nic.in/wp-content/uploads/2020/06/Digital-india-black.jpg?x35530" width="200" height="80">
+          <img src="https://upload.wikimedia.org/wikipedia/en/4/46/Make_In_India.png" alt="make in india" width="150" height="80">
+          <img src="https://www.onecity.biz/blog/wp-content/uploads/2020/12/ISO_9001-2015_w.jpg" alt="iso" width="130" height="100">
 
         </div>
       </section>
@@ -853,5 +863,11 @@ We are the only company in india to register GST REGISTRATION FREE of cost for o
 
     </section>
     </footer>
+
+    <script>
+      document.querySelector(".logo").onclick=function(){
+        document.querySelector(".menu").classList.toggle("hide")
+      }
+    </script>
   </body>
 </html>
